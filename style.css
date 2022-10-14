@@ -3,7 +3,6 @@
     margin: none;
     padding: none;
     box-sizing: border-box;
-    overflow-y: hidden;
 }
 
 body {
@@ -44,6 +43,10 @@ main {
     font-family: 'Silkscreen', cursive;
     color: tomato;
     font-size: 2.4em;
+    animation-duration: 2s;
+    animation-name: zoomin;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 .card-2 {
@@ -81,3 +84,17 @@ main {
     color: tomato;
     border: 2px solid tomato;
 }
+
+@keyframes zoomin {
+    0% {
+      font-size: 2.4em;
+    }
+   
+    50% {
+      font-size: 2em;
+    }
+
+    100% {
+        font-size: 2.4em;
+    }
+  }
