@@ -10,6 +10,7 @@ body {
 }
 
 /* config padrão acima */
+
 a {
     color: azure;
 }
@@ -26,4 +27,14 @@ main {
 
 .card-1 {
     text-align: center;
+    background-color: rgba(9, 39, 29, 0.599);
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.card-2 {
+    text-align: center;
+    background-color: rgba(9, 39, 29, 0.599);
+    padding: 1rem;
+    border-radius: 20px;
 }
