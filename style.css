@@ -2,19 +2,70 @@
     margin: none;
     padding: none;
     box-sizing: border-box;
+    overflow-y: hidden;
 }
 
 body {
-    background-color: rgb(46, 46, 46);
+    background-color: rgb(26, 26, 26);
     color: azure;
 }
 
-a {
-    color: azure;
+:root{
+    --color-main: rgba(9, 39, 29, 0.599);
+    --color-main-strongest: rgba(6, 26, 19, 0.6);
 }
+
+/* config padrão acima */
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 2.4rem;
+    min-height: 100vh;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+.card-1 {
+    text-align: center;
+    background-color: var(--color-main);
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.card-2 {
+    text-align: center;
+    background-color: var(--color-main);
+    padding: 1rem;
+    border-radius: 20px;
+    display: flex;
+    gap: 1rem;
+}
+
+.card-2 > p {
+    background-color: var(--color-main-strongest);
+    padding: .8rem;
+    border-radius: 14px;
+}
+
+.card-links {
+    display: flex;
+    gap: 1.4rem;
+}
+
+.links {
+    background-color: var(--color-main);
+    color: azure;
+    padding: 2rem;
+    border: 2px solid azure;
+    border-radius: 60%;
+    text-decoration: none;    
+}
+
+.links:hover {
+    color: tomato;
+    border: 2px solid tomato;
 }
