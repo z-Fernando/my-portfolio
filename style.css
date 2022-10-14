@@ -9,6 +9,7 @@ body {
     color: azure;
 }
 
+/* config padrão acima */
 a {
     color: azure;
 }
@@ -17,6 +18,10 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.profile {
+    border-radius: 50%;
 }
 
 .card-1 {
