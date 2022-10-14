@@ -2,6 +2,7 @@
     margin: none;
     padding: none;
     box-sizing: border-box;
+    overflow-y: hidden;
 }
 
 body {
@@ -20,7 +21,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: .4rem;
+    gap: 2.4rem;
+    min-height: 100vh;
 }
 
 .profile {
@@ -49,16 +51,21 @@ main {
     border-radius: 14px;
 }
 
+.card-links {
+    display: flex;
+    gap: 1.4rem;
+}
+
 .links {
-    color: tomato;
-    padding: 1rem;
-    border: 2px solid tomato;
+    background-color: var(--color-main);
+    color: azure;
+    padding: 2rem;
+    border: 2px solid azure;
     border-radius: 60%;
-    text-decoration: none;
+    text-decoration: none;    
 }
 
 .links:hover {
-    color: azure;
-    background-color: var(--color-main);
-    border: 2px solid azure;
+    color: tomato;
+    border: 2px solid tomato;
 }
