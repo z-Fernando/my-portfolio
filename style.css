@@ -9,16 +9,17 @@ body {
     color: azure;
 }
 
-/* config padrão acima */
-
-a {
-    color: azure;
+:root{
+    --color-main: rgba(9, 39, 29, 0.599);
 }
+
+/* config padrão acima */
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: .4rem;
 }
 
 .profile {
@@ -27,14 +28,28 @@ main {
 
 .card-1 {
     text-align: center;
-    background-color: rgba(9, 39, 29, 0.599);
+    background-color: --color-main;
     padding: 1rem;
     border-radius: 20px;
 }
 
 .card-2 {
     text-align: center;
-    background-color: rgba(9, 39, 29, 0.599);
+    background-color: --color-main;
     padding: 1rem;
     border-radius: 20px;
+}
+
+.links {
+    color: tomato;
+    padding: 1rem;
+    border: 2px solid tomato;
+    border-radius: 60%;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: azure;
+    background-color: var(--color-main);
+    border: 2px solid azure;
 }
