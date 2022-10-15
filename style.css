@@ -109,6 +109,20 @@ main {
     border: 2px solid tomato;
 }
 
+.links > img:last-child {
+    display: none;  
+}
+
+.card-links:hover > .links > img:last-child {
+    display: block;  
+}
+
+.card-links:hover > .links > img:first-child {
+    display: none;
+}
+
+
+
 @media only screen and (max-width: 600px) {
     main > .name {
         text-align: center;
