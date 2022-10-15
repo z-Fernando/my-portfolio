@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;400&display=swap');
+
 * {
     margin: none;
     padding: none;
@@ -25,6 +27,8 @@ main {
     align-items: center;
     gap: 1rem;
     min-height: 100vh;
+    font-family: 'MuseoModerno', cursive;
+    font-weight: 400;
 }
 
 .profile {
@@ -74,9 +78,10 @@ main {
 }
 
 .card-links {
+    max-width: 95vw;
+    min-width: 40vw;
     display: flex;
-    /* gap: 1.4rem; */
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .link-icons {
@@ -106,12 +111,13 @@ main {
         min-width: 95vw;
     }
     main > .card-links {
+        min-width: 100vw;
         justify-content: space-evenly;
     }
     main > .card-2 {
         min-width: 95vw;
     }
-  }
+}
 
 @keyframes zoomin {
     0% {
