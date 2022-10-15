@@ -3,6 +3,7 @@
     margin: none;
     padding: none;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
 }
 
 :root{
-    --color-main: rgba(9, 39, 29, 0.599);
+    --color-main: rgba(15, 36, 29, 0.599);
     --color-main-strongest: rgba(6, 26, 19, 0.6);
 }
 
@@ -22,7 +23,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2.4rem;
+    gap: 1rem;
     min-height: 100vh;
 }
 
@@ -90,6 +91,19 @@ main {
     color: tomato;
     border: 2px solid tomato;
 }
+
+@media only screen and (max-width: 600px) {
+    main > .name {
+        text-align: center;
+    }
+    main > .card-1 {
+        padding-top: 8.8em;
+    }
+    /* main > .card-links {
+        flex-direction: column;
+        align-items: center;
+    } */
+  }
 
 @keyframes zoomin {
     0% {
