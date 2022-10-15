@@ -97,15 +97,15 @@ main {
 
 .links {
     background-color: var(--color-main);
-    color: azure;
     padding: 1.4rem;
     border: 2px solid rgba(240, 255, 255, 0.498);
     border-radius: 14%;
-    text-decoration: none;    
+    text-decoration: none; 
+    display: flex;   
+    align-items: center;
 }
 
 .links:hover {
-    color: tomato;
     border: 2px solid tomato;
 }
 
@@ -156,12 +156,12 @@ main {
 
 @keyframes border-blink {
     0% {
-        border: 4px solid rgba(255, 99, 71, 0.742);
+        border: 3px solid rgba(255, 99, 71, 0.742);
     }
     50% {
-        border: 4px solid rgba(255, 99, 71, 0);
+        border: 3px solid rgba(255, 99, 71, 0);
     }
     100% {
-        border: 4px solid rgba(255, 99, 71, 0.742);
+        border: 3px solid rgba(255, 99, 71, 0.742);
     }
 }
