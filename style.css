@@ -75,7 +75,8 @@ main {
 
 .card-links {
     display: flex;
-    gap: 1.4rem;
+    /* gap: 1.4rem; */
+    justify-content: space-between;
 }
 
 .link-icons {
@@ -102,13 +103,13 @@ main {
     }
     main > .card-1 {
         padding-top: 8.8em;
+        min-width: 95vw;
     }
-    /* main > .card-links {
-        flex-direction: column;
-        align-items: center;
-    } */
     main > .card-links {
-        gap: .4em;
+        justify-content: space-evenly;
+    }
+    main > .card-2 {
+        min-width: 95vw;
     }
   }
 
