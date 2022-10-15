@@ -8,6 +8,12 @@
     overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: var(--color-main-strongest); /* or add it to the track */
+}
+
 body {
     background-color: rgb(26, 26, 26);
     color: azure;
@@ -30,6 +36,7 @@ main {
     font-family: 'MuseoModerno', cursive;
     font-weight: 400;
 }
+
 
 .profile {
     border-radius: 50%;
@@ -91,7 +98,7 @@ main {
 .links {
     background-color: var(--color-main);
     color: azure;
-    padding: 2rem;
+    padding: 1.4rem;
     border: 2px solid rgba(240, 255, 255, 0.498);
     border-radius: 14%;
     text-decoration: none;    
@@ -101,6 +108,20 @@ main {
     color: tomato;
     border: 2px solid tomato;
 }
+
+.links > img:last-child {
+    display: none;  
+}
+
+.links:hover > img:last-child {
+    display: block;  
+}
+
+.links:hover > img:first-child {
+    display: none;
+}
+
+
 
 @media only screen and (max-width: 600px) {
     main > .name {
