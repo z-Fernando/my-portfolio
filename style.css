@@ -98,7 +98,7 @@ main {
 .links {
     background-color: var(--color-main);
     color: azure;
-    padding: 2rem;
+    padding: 1.4rem;
     border: 2px solid rgba(240, 255, 255, 0.498);
     border-radius: 14%;
     text-decoration: none;    
@@ -113,11 +113,11 @@ main {
     display: none;  
 }
 
-.card-links:hover > .links > img:last-child {
+.links:hover > img:last-child {
     display: block;  
 }
 
-.card-links:hover > .links > img:first-child {
+.links:hover > img:first-child {
     display: none;
 }
 
