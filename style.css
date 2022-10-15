@@ -8,6 +8,12 @@
     overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: var(--color-main-strongest); /* or add it to the track */
+}
+
 body {
     background-color: rgb(26, 26, 26);
     color: azure;
@@ -30,6 +36,7 @@ main {
     font-family: 'MuseoModerno', cursive;
     font-weight: 400;
 }
+
 
 .profile {
     border-radius: 50%;
