@@ -51,7 +51,7 @@ main {
     background-color: var(--color-main);
     border-radius: 20px;
     min-width: 40vw;
-    border: 2px solid rgba(240, 255, 255, 0.498);
+    border: 2px solid rgb(13, 82, 12);
     padding: 1.2em;
     padding-top: 5.3em;
 }
@@ -75,7 +75,7 @@ main {
     display: flex;
     gap: 1rem;
     justify-content: center;
-    border: 2px solid rgba(240, 255, 255, 0.498);
+    border: 2px solid rgb(13, 82, 12);
 }
 
 .card-2 > p {
@@ -98,7 +98,7 @@ main {
 .links {
     background-color: var(--color-main);
     padding: 1.4rem;
-    border: 2px solid rgba(240, 255, 255, 0.498);
+    border: 2px solid rgb(13, 82, 12);
     border-radius: 14%;
     text-decoration: none; 
     display: flex;   
