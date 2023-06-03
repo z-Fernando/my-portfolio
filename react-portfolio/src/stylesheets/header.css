@@ -1,0 +1,14 @@
+header {
+  display: flex;
+  align-items: flex-start;
+  height: 10vh;
+  letter-spacing: 2px;
+  /* border: 1px solid red; */
+}
+
+header h1 {
+  text-align: center;
+  width: 30vw;
+  border-bottom: 1px azure solid;
+  margin: 10px auto 10px auto;
+}

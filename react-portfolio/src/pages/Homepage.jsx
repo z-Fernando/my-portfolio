@@ -1,15 +1,13 @@
 import React from "react";
-// import '../stylesheets/homepage.css';
 import '../stylesheets/index.css'
 import { Link } from "react-router-dom";
+import Header from "../components/Header";
 
 class Homepage extends React.Component {
   render() {
     return ( 
       <section className="home-body">
-        <header>
-          <h1>Fernando Ferreira</h1>
-        </header>
+        <Header />
         <main>
           <section className="picture">
             <img 

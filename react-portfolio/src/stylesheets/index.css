@@ -18,17 +18,6 @@
   font-family: 'MuseoModerno', cursive;
 }
 
-header {
-  height: 10vh;
-  letter-spacing: 2px;
-}
-
-header h1 {
-  border-bottom: 1px azure solid;
-  max-width: 30vw;
-  margin: 10px auto 10px auto;
-}
-
 .home-body main {
   height: 80vh;
   display: flex;
