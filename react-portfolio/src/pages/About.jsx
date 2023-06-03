@@ -3,7 +3,7 @@ import React from "react";
 import '../stylesheets/about.css';
 import euJogando from '../img/me-cs.jpeg'
 import Header from "../components/Header";
-import { Link } from "react-router-dom";
+import FooterNav from "../components/FooterNav";
 
 class About extends React.Component {
   render() {
@@ -30,14 +30,7 @@ class About extends React.Component {
             <img src={ euJogando } alt="Autor do site em frente ao computador" />
           </section>
         </main>
-        <footer>
-          <Link to="/">
-            <div>Início</div>
-          </Link>
-          <Link to="/contact">
-            <div>Contato</div>
-          </Link>
-        </footer>
+        <FooterNav />
       </section>
     )
   }
