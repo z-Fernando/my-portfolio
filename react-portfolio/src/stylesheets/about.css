@@ -16,6 +16,10 @@
   padding: 5em 0 5em 0;
 }
 
+.about-body main section p {
+  font-family: Helvetica;
+}
+
 footer {
   /* border: 1px solid white; */
   display: flex;

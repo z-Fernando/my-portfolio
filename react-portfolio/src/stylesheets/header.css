@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;400&display=swap');
+
 header {
+  font-family: 'MuseoModerno', cursive;
+  color: azure;
   display: flex;
   align-items: flex-start;
   height: 10vh;

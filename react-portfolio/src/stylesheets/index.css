@@ -6,12 +6,10 @@
   padding: none;
   box-sizing: border-box;
   overflow-x: hidden;
-  /* overflow-y: hidden; */
   text-decoration: none;
 }
 
-.home-body, .about-body {
-  background-color: rgb(26, 26, 26);
+.home-body, .about-body, .tech-body {
   color: azure;
   font-family: 'MuseoModerno', cursive;
 }
