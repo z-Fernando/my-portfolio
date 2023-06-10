@@ -9,7 +9,7 @@
   text-decoration: none;
 }
 
-.home-body, .about-body, .tech-body {
+.home-body, .about-body, .tech-body, .contact-body {
   color: azure;
   font-family: 'MuseoModerno', cursive;
 }
