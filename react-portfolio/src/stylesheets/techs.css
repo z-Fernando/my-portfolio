@@ -22,6 +22,8 @@
 
 .tech-body main section {
   border: 1px solid azure;
-  padding: 24px;
+  padding: 2.4em 1em 1em 1em;
   border-radius: 24px;
+  display: flex;
+  flex-flow: column-reverse;
 }
