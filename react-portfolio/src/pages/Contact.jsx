@@ -92,16 +92,16 @@ class Contact extends React.Component {
         </main>
         <section className="email-contact">
           <img src={ mailIcon } alt="Símbolo representando o email" />
-          <button className="copy-button">
+          <button className="copy-button" title="Clique para copiar">
               prog.lffp@gmail.com
           </button>
           {showMessage && <span>E-mail copiado!</span>}
         </section>
         <footer>
-        <Link to="/">
-          <div>Início</div>
-        </Link>
-      </footer>
+          <Link to="/">
+            <div>Início</div>
+          </Link>
+        </footer>
       </section>
     )
   }

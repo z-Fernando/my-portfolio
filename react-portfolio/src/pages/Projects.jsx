@@ -17,14 +17,36 @@ class Projects extends React.Component {
               href="https://github.com/z-Fernando/starwars-planets-table" 
               rel="noreferrer"
             >
-              <img src={ githubIcon } alt="Ícone do GitHub" />
+              <img title="Clique para acessar o repositório"
+                 src={ githubIcon } alt="Ícone do GitHub" />
             </a>
-            <h4>Starwars Planets</h4>
+            <h4>Planetas Starwars</h4>
             <a
               target="_blank" 
               href="http://starwars-planets-table.surge.sh/" 
               rel="noreferrer"
               className="project-button"
+              title="Clique para acessar o projeto online"
+            >
+              Abrir projeto
+            </a>
+          </section>
+          <section>
+            <a
+              target="_blank" 
+              href="https://github.com/z-Fernando/starwars-planets-table" 
+              rel="noreferrer"
+            >
+               <img title="Clique para acessar o repositório"
+                 src={ githubIcon } alt="Ícone do GitHub" />
+            </a>
+            <h4>Receitas na Mão</h4>
+            <a
+              target="_blank" 
+              href="http://starwars-planets-table.surge.sh/" 
+              rel="noreferrer"
+              className="project-button"
+              title="Clique para acessar o projeto online"
             >
               Abrir projeto
             </a>

@@ -22,8 +22,30 @@
 
 .tech-body main section {
   border: 1px solid azure;
-  padding: 2.4em 1em 1em 1em;
+  /* padding: 3em 1em 1em 1em; */
   border-radius: 24px;
+  height: 160px;
+  width: 160px;
   display: flex;
-  flex-flow: column-reverse;
+  flex-flow: column-reverse wrap;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  flex-basis: calc(33.33% - 10px)
+}
+
+@media (max-width: 768px) {
+  .tech-body main section {
+    flex-basis: calc(90% - 10px);
+    gap: 1em;
+    margin: 10px;
+  }
+  .tech-body header h1 {
+    width: 90vw;
+  }
+  .tech-body footer {
+    margin-top: 2em;
+  }
+  .tech-body footer div {
+    border: 1px solid azure;
+  }
 }
