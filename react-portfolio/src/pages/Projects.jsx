@@ -28,7 +28,7 @@ class Projects extends React.Component {
               className="project-button"
               title="Clique para acessar o projeto online"
             >
-              Abrir projeto
+              Abrir projeto →
             </a>
           </section>
           <section>
@@ -48,7 +48,7 @@ class Projects extends React.Component {
               className="project-button"
               title="Clique para acessar o projeto online"
             >
-              Abrir projeto
+              Abrir projeto →
             </a>
           </section>
         </main>
