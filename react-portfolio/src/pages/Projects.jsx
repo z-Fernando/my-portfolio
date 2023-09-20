@@ -23,7 +23,7 @@ class Projects extends React.Component {
             <h4>Planetas Starwars</h4>
             <a
               target="_blank" 
-              href="http://starwars-planets-table.surge.sh/" 
+              href="https://starwars-planets-info.surge.sh/" 
               rel="noreferrer"
               className="project-button"
               title="Clique para acessar o projeto online"
@@ -31,7 +31,7 @@ class Projects extends React.Component {
               Abrir projeto →
             </a>
           </section>
-          <section>
+          {/* <section>
             <a
               target="_blank" 
               href="https://github.com/z-Fernando/starwars-planets-table" 
@@ -50,7 +50,7 @@ class Projects extends React.Component {
             >
               Abrir projeto →
             </a>
-          </section>
+          </section> */}
         </main>
         <FooterNav />
       </section>
