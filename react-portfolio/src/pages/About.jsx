@@ -12,18 +12,12 @@ class About extends React.Component {
         <Header />
         <main>
           <section>
-            <img src={ euJogando } alt="Autor do site em frente ao computador" />
-          </section>
-          <section>
-            <h1>Um pouco sobre a minha pessoa...</h1>
+            <h1>Por trás das telas</h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            Nasci e cresci no Paraná! Fui criado num bairro vizinho a Curitiba, capital onde moro hoje. Tenho muito interesse em conhecer melhor o Brasil, mas também tenho treinado meu inglês para poder conhecer o mundo a fora também. Tenho 24 anos e apesar de jovem, conduzo meu trabalho com responsabilidade.
             </p>
-          </section>
-          <section>
-            <h1>Um pouco sobre a minha pessoa...</h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              Levo a vida com leveza ao lado da minha esposa e meus pets. Gosto de praticar esportes eletrônicos e também os tradicionais... ultimamente tenho curtido assistir desenhos e acompanhar as mudanças que o mundo digital está trazendo para essa nova era.  
             </p>
           </section>
           <section>

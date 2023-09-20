@@ -12,12 +12,17 @@
 }
 
 .about-body main section {
-  max-width: 50vw;
+  max-width: 26vw;
   padding: 7em 0 7em 0;
+}
+
+.about-body main section h1 {
+  letter-spacing: 1px;
 }
 
 .about-body main section p {
   font-family: Helvetica;
+  line-height: 22px;
 }
 
 footer {
