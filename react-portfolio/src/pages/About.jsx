@@ -14,10 +14,10 @@ class About extends React.Component {
           <section>
             <h1>Por trás das telas</h1>
             <p>
-            Nasci e cresci no Paraná! Fui criado num bairro vizinho a Curitiba, capital onde moro hoje. Tenho muito interesse em conhecer melhor o Brasil, mas também tenho treinado meu inglês para poder conhecer o mundo a fora também. Tenho 24 anos e apesar de jovem, conduzo meu trabalho com responsabilidade.
+            Nasci e cresci no Paraná! Fui criado num bairro vizinho a Curitiba, capital onde moro hoje. Tenho muito interesse em conhecer melhor o Brasil, mas também tenho treinado meu inglês para poder conhecer o mundo a fora também. Tenho 25 anos e apesar de jovem, conduzo meu trabalho com responsabilidade.
             </p>
             <p>
-              Levo a vida com leveza ao lado da minha esposa e meus pets. Gosto de praticar esportes eletrônicos e também os tradicionais... ultimamente tenho curtido assistir desenhos e acompanhar as mudanças que o mundo digital está trazendo para essa nova era.  
+              Levo a vida com leveza ao lado da minha esposa e meus pets. Gosto de praticar esportes eletrônicos e também os tradicionais. Ultimamente tenho me interessado em aprender desenvolvimento focado em resolução de problemas e otimização de processos, tenho buscado acompanhar as mudanças que o mundo digital está trazendo para essa nova era.  
             </p>
           </section>
           <section>

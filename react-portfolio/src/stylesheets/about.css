@@ -8,6 +8,7 @@
 
 .about-body main img {
   max-height: 36vh;
+  width: 100%;
   border-radius: 24px;
 }
 
