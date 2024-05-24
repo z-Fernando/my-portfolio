@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;400&display=swap');
+
+header {
+  font-family: 'MuseoModerno', cursive;
+  color: azure;
+  display: flex;
+  align-items: flex-start;
+  height: 10vh;
+  letter-spacing: 2px;
+  /* border: 1px solid red; */
+  align-items: flex-end;
+}
+
+header h1 {
+  text-align: center;
+  width: 50vw;
+  border-bottom: 1px azure solid;
+  margin: 10px auto 10px auto;
+}

@@ -1,0 +1,83 @@
+.about-body main {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border: 1px solid white; */
+}
+
+.about-body main img {
+  max-height: 36vh;
+  width: 100%;
+  border-radius: 24px;
+}
+
+.about-body main section {
+  max-width: 26vw;
+  padding: 7em 0 7em 0;
+}
+
+.about-body main section h1 {
+  letter-spacing: 1px;
+}
+
+.about-body main section p {
+  font-family: Helvetica;
+  line-height: 22px;
+}
+
+footer {
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  align-items: center;
+}
+
+footer div {
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  border-radius: 24px;
+  padding: 1em;
+  color: azure;
+  min-width: 10vw;
+}
+
+footer div:hover {
+  color: rgb(26, 26, 26);
+  font-weight: 700;
+  background-color: azure;
+}
+
+/* Scrollbar */
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: rgb(26, 26, 26);
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: rgb(26, 26, 26);
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: rgb(26, 26, 26);
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #363A71;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #202d74;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #120f58;
+}

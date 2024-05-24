@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;400&display=swap');
+
+* {
+  margin: none;
+  padding: none;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  text-decoration: none;
+}
+
+.home-body, .about-body, .tech-body, .contact-body, .projects-body {
+  color: azure;
+  font-family: 'MuseoModerno', cursive;
+}
+
+.home-body main {
+  height: 80vh;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10em;
+}
+
+.picture img {
+  border-radius: 24px;
+  max-width: 340px;
+}
+
+.page-anchors p {
+  font-size: 1.15em;
+  padding: 6px 2px 2px 110px;
+  text-align: right;
+  color: azure;
+  letter-spacing: 1px;
+}
+
+.page-anchors p:hover {
+  background-color: azure;
+  color: rgb(26, 26, 26);
+  font-weight: 700;
+}
+
+footer {
+  height: 10vh;
+  letter-spacing: 2px;
+  font-size: .9em;
+}
