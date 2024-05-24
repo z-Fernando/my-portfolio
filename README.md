@@ -1,4 +1,3 @@
-<<<<<<< r-refatoring
 # Portfólio Fernando Ferreira
 
 > Meu site pessoal é um projeto desenvolvido com componentes de classe React e CSS Vanilla, com o objetivo de compartilhar informações sobre minha pessoa e minhas habilidades técnicas como desenvolvedor web. Nele, você encontrará uma seção dedicada aos projetos que desenvolvi, tanto individualmente quanto em equipe.
